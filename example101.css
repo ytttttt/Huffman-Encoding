@@ -1,0 +1,4 @@
+header{position:absolute;top:0;left:0;right:0;z-index:9;background:#000}
+header .container{position:relative}
+header .container .logo-wrapper{float:left;font-size:0}
+header .container .logo-wrapper .logo{float:left;width:210px;height:80px;text-indent:-1000px;background:no-repeat center;background-image:-webkit-image-set(url(/wp-content/themes/mythware/img/common/nav-header/logo_5b1e48c.png) 1x,url(/wp-content/themes/mythware/img/common/nav-header/logo_2x_dba0e95.png) 2x);background-size:contain}}
