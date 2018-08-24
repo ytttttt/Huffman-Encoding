@@ -1,11 +1,12 @@
 *{
     box-sizing: border-box;
 }
-div{
-    display: block;
-}
+
 a{
     text-decoration:none;
+}
+body{
+    margin: 0px;
 }
 header{
     position: absolute;
@@ -17,59 +18,69 @@ header{
     background-color:#000000;
 
 }
+.container{
+    width:930px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0 15px;
+}
 header .container{position:relative}
 header .container .logo{
     position: relative;
-    left: 225px;
-    float: left;
+    height:44px;
+    display: inline-block;
 }
 ul{
     list-style-type: none;
 }
-header .container .menuDiv{
+header .container .menu{
     float:right;
     height:44px;
     color:#ffffff;
 
 }
-.menuDiv .first_nav{
-    float: right;
+header .container .menu .first_nav{
+    margin-top:0px;
+    margin-bottom:0px;  
 }
-.menuDiv .first_nav .first_nav_item{
+.menu .first_nav .first_nav_item{
+    display:inline-block;
+
+}
+.menu .first_nav .first_nav_item a{
+    color:#ffffff;
+    height:44px;
+    line-height: 44px;
     padding-left:15px;
     padding-right: 15px;
     display:inline-block;
-    vertical-align: top;
 }
-.menuDiv>ul>li>a{
-    color:#ffffff;
-}
-.menuDiv>ul>li>a:hover {
+.menu .first_nav .first_nav_item a:hover {
     color:#aaaaaa;
 
 }
-.menuDiv > ul > li > ul {
+.menu > ul > li > ul {
     position: absolute;
+    padding: 0px;
     display: none;
 }
-.menuDiv > ul > li:hover ul {
+.menu > ul > li:hover ul {
     display: block;
 }
-.menuDiv>ul>li>ul>li {
+.menu>ul>li>ul>li {
     position: relative;
-    left:-40px;
     width:280px;
     height:44px;
     background-color: #222222;
-    border: 1px solid #aaaaaa;
+    border-top: 1px solid #aaaaaa;
     list-style-type:none;
     opacity: 0.9;
 }
-.menuDiv > ul > li > ul:first-child > li {
+.menu > ul > li > ul > li:first-child {
     border-top: none;
 }
 
-a.secondMenu:link {
+a.second_nav_item:link {
     color: #ffffff; 
     font-size: 15px;
     padding-left:15px; 
@@ -78,9 +89,13 @@ a.secondMenu:link {
     transform: translate(0, -50%);
 
 }
-a.secondMenu:hover {color: #999999}
-
-
+a.second_nav_item:hover {color: #999999}
+.header-division{
+    margin-top:44px;
+}
+.section-carousel{
+    
+}
 .section2{
     background-color: #f9f9f9;
 }
