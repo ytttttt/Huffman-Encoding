@@ -66,6 +66,7 @@ header .container .menu .first_nav{
 }
 .menu > ul > li:hover ul {
     display: block;
+    z-index: 3;
 }
 .menu>ul>li>ul>li {
     position: relative;
@@ -94,11 +95,26 @@ a.second_nav_item:hover {color: #999999}
     margin-top:44px;
 }
 .section-carousel{
-    
+    width:1349px;
+    height:558px;
+    position: relative;
 }
-.section2{
-    background-color: #f9f9f9;
+.section-carousel .section-pic{
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/carousel/blue-md_e153b42.jpg);
+    position: relative;
+    padding-top:90px;
+    width:100%;
+    height:558px;
+    z-index: 2;
 }
+.section-pic a{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
 .title{
     width:100%;
     height:80px;
