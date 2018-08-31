@@ -126,23 +126,57 @@ a.second_nav_item:hover {color: #999999}
     font-weight:400;
 }
 .pictures{
-    padding:20px 150px;
-    margin: auto;
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size:0px;
+    text-align:justify;
 }
 .smallpic{
     width:320px;
+    display: inline-block;
+    margin-bottom:20px;
     background-color: #ffffff;
 }
 .smallpic .pic1{
+    width:320px;
     height:160px;
     background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/ap_af00f8e.jpg);
+}
+.smallpic .pic2{
+    width:320px;
+    height:160px;
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/at_d995a89.jpg);
+}
+.smallpic .pic3{
+    width:320px;
+    height:160px;
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/clicker_582e4aa.jpg);
+}
+.smallpic .pic4{
+    width:320px;
+    height:160px;
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/cms_0f84ca7.jpg);
+}
+.smallpic .pic5{
+    width:320px;
+    height:160px;
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/lan_76bf4fc.jpg);
+}
+.smallpic .pic6{
+    width:320px;
+    height:160px;
+    background: url(http://www.mythware.com/wp-content/themes/mythware/img/index/core/mam_2d0f857.jpg);
 }
 .smallpic:hover{
     box-shadow: 5px 5px 5px 5px #888888;
 }
-
+.center{
+    margin:0 20px;
+}
 .subtitle{
     margin:30px 0 15px 0;
+    font-size:1rem;
+    font-weight: 600;
     text-align: center;
     color: #333;
 }
