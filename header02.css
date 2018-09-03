@@ -188,6 +188,9 @@ p.details{
     font-size: 7px;
     color: #999999;
 }
+.clear{
+    clear:both;
+}
 
 
 .news{
